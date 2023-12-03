@@ -17,8 +17,6 @@ export async function signup({ email, password, fullName }) {
     console.error(error)
     throw new Error("Can't sign the user up")
   }
-
-  console.log(data)
   return data
 }
 
